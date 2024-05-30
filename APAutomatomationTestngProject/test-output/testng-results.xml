@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T10:34:32 IST" name="RegressionSuite" finished-at="2024-05-30T10:35:25 IST" duration-ms="53279">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T10:34:32 IST" name="Test" finished-at="2024-05-30T10:35:25 IST" duration-ms="53279">
+      <class name="com.odoo.automation.testLayer.EnquiryForm">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odoo.automation.testLayer.EnquiryForm@a514af7]" started-at="2024-05-30T10:34:49 IST" name="setup" finished-at="2024-05-30T10:34:51 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enquiry_form_successfully_submitted()[pri:0, instance:com.odoo.automation.testLayer.EnquiryForm@a514af7]" started-at="2024-05-30T10:34:51 IST" name="enquiry_form_successfully_submitted" finished-at="2024-05-30T10:34:59 IST" duration-ms="7242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enquiry_form_successfully_submitted -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.odoo.automation.testLayer.EnquiryForm@a514af7]" started-at="2024-05-30T10:34:59 IST" name="teardown" finished-at="2024-05-30T10:34:59 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.odoo.automation.testLayer.EnquiryForm -->
+      <class name="com.odoo.automation.testLayer.ContactUs">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odoo.automation.testLayer.ContactUs@4466af20]" started-at="2024-05-30T10:34:40 IST" name="setup" finished-at="2024-05-30T10:34:43 IST" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="user_should_contact_succesfully()[pri:0, instance:com.odoo.automation.testLayer.ContactUs@4466af20]" started-at="2024-05-30T10:34:43 IST" name="user_should_contact_succesfully" finished-at="2024-05-30T10:34:49 IST" duration-ms="5873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_contact_succesfully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.odoo.automation.testLayer.ContactUs@4466af20]" started-at="2024-05-30T10:34:49 IST" name="teardown" finished-at="2024-05-30T10:34:49 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.odoo.automation.testLayer.ContactUs -->
+      <class name="com.odoo.automation.testLayer.Shopping">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odoo.automation.testLayer.Shopping@6b927fb]" started-at="2024-05-30T10:34:59 IST" name="setup" finished-at="2024-05-30T10:35:01 IST" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="user_should_buy_product_succesfully()[pri:0, instance:com.odoo.automation.testLayer.Shopping@6b927fb]" started-at="2024-05-30T10:35:01 IST" name="user_should_buy_product_succesfully" finished-at="2024-05-30T10:35:25 IST" duration-ms="23771" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@name = 'website_sale_main_button']"}
+  (Session info: chrome=125.0.6422.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cef0dc1bd8be120d1b932e7a5417b0ad, findElement {using=xpath, value=//a[@name = 'website_sale_main_button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54061/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cef0dc1bd8be120d1b932e7a5417b0ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@name = 'website_sale_main_button']"}
+  (Session info: chrome=125.0.6422.113)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cef0dc1bd8be120d1b932e7a5417b0ad, findElement {using=xpath, value=//a[@name = 'website_sale_main_button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54061/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cef0dc1bd8be120d1b932e7a5417b0ad
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at com.odoo.automation.pageLayer.MyAcccountPage.click_on_checkout_button(MyAcccountPage.java:78)
+at com.odoo.automation.testLayer.Shopping.user_should_buy_product_succesfully(Shopping.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_buy_product_succesfully -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.odoo.automation.testLayer.Shopping@6b927fb]" started-at="2024-05-30T10:35:25 IST" name="teardown" finished-at="2024-05-30T10:35:25 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.odoo.automation.testLayer.Shopping -->
+      <class name="com.odoo.automation.testLayer.Login">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.odoo.automation.testLayer.Login@694abbdc]" started-at="2024-05-30T10:34:32 IST" name="start" finished-at="2024-05-30T10:34:32 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odoo.automation.testLayer.Login@694abbdc]" started-at="2024-05-30T10:34:32 IST" name="setup" finished-at="2024-05-30T10:34:35 IST" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varify_user_should_login_using_valid_credential()[pri:0, instance:com.odoo.automation.testLayer.Login@694abbdc]" started-at="2024-05-30T10:34:35 IST" name="varify_user_should_login_using_valid_credential" finished-at="2024-05-30T10:34:40 IST" duration-ms="4514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_user_should_login_using_valid_credential -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.odoo.automation.testLayer.Login@694abbdc]" started-at="2024-05-30T10:34:40 IST" name="teardown" finished-at="2024-05-30T10:34:40 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.odoo.automation.testLayer.Login@694abbdc]" started-at="2024-05-30T10:35:25 IST" name="end" finished-at="2024-05-30T10:35:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.odoo.automation.testLayer.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
